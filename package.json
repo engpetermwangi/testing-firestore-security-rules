@@ -1,0 +1,20 @@
+{
+  "name": "testing-firebase-security-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
+  },
+  "keywords": [],
+  "author": "Peter Mwangi",
+  "license": "ISC",
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^2.0.5",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  }
+}
